@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../plugins/TrunPage/index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .demo {
+            position: absolute;
+            width: 800px;
+            height: 500px;
+            left: calc(50% - 400px);
+            top: calc(50% - 250px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class='demo'></div>
+</body>
+<script src="../../js/libs/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../plugins/TrunPage/index.js"></script>
+<script>
+    $(".demo").load("../components/banner.html", function (res) {
+        $(this).makeTrunPage({
+            pageList: $(this).find(".focus-item__core"),
+            hasBtn: true,
+            hasSpotIndexes: true,
+            type: "fade",
+            isAutoPlay: true,
+            changeTime: 5000,
+            spotSize: 15,
+            spotLocation: "center",
+            isHoverStop: true
+        })
+    })
+</script>
+
+</html>
