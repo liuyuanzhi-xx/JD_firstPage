@@ -12,5 +12,5 @@
 
 ### 项目截图
 
-![Image](https://github.com/liuyuanzhi-xx/JD_firstPage/blob/master/readmeImg/img1.png)
-![Image](https://github.com/liuyuanzhi-xx/JD_firstPage/blob/master/readmeImg/img2.png)
+![Image](https://github.com/liuyuanzhi-xx/JD_firstPage/blob/master/imgImg/img1.png)
+![Image](https://github.com/liuyuanzhi-xx/JD_firstPage/blob/master/imgImg/img1.png)
